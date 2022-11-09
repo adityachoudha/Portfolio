@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+:root{
+    --condiv-flex:6;
+    --fontsize-p:1.2rem;
+    --fontsize-nav:1.6rem;
+    --typing-font:3rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway';
+}
+.wrapper{
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+}
+.sidebar{
+   padding:30px;
+   width: 20vw;
+   background: rgb(238, 103, 143);
+   background: linear-gradient(180deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1 ) 80%);
+}
+.nav{
+    font-size: var(--fontsize-nav);
+    text-align: center;
+    list-style-type: none;
+    
+}
+.nav li {
+    margin-top: 40px;
+}
+.nav a{
+    color: white !important;
+    text-decoration: none;
+}
+.active{
+    font-weight: bolder;
+    color:green !important;
+}
+
+/* Home */
+.condiv{
+    padding: 80px;
+    background-color: #f4f5f9;
+    flex: var(--condiv-flex);
+}
+.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.profilepic{
+    border-radius: 50%;
+    width: 250px;
+    margin: 30px;
+}
+.typingefffict{
+    font-size: var(--typing-font);
+    margin-bottom: 30px;
+}
+
+/* EDU */
+.subtopic{
+    margin: 10px 10px 30px 10px !important;
+}
+
+/* ABOUT */
+p{
+    font-size: var(--fontsize-p);
+}
+h1,h2,h3,h4,p{
+    margin: 10px;
+}
+
+/* Card */
+.card{
+    border: 0px solid #9a9b9c;
+    display: flex;
+    margin: 30px 0px 30px 0px;
+}
+.card:hover{
+    color: #1b1d20;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* Skills */
+.skills ul li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+/* portfolio */
+.con{
+    background-color: #f4f5f9;
+    width: 75vw;
+    display: flex;
+    flex-flow: row wrap;
+}
+.con > div{
+    width:300px;
+    display: flex;
+}
+.imghov{
+    width: 300px;
+    height: 200px;
+}
+.tag{
+    margin: 20px;
+}
+.imov :hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.project a{
+    text-decoration: none;
+    color: #1b1d20;
+}
+
+.icon{
+    margin: 10px;
+}
